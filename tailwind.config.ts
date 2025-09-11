@@ -63,6 +63,15 @@ export default {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
+      backgroundImage: {
+        'gradient-temple': 'var(--gradient-temple)',
+        'gradient-sunset': 'var(--gradient-sunset)', 
+        'gradient-gold': 'var(--gradient-gold)',
+      },
+      boxShadow: {
+        'temple': 'var(--shadow-temple)',
+        'warm': 'var(--shadow-warm)',
+      },
       keyframes: {
         "accordion-down": {
           from: {
