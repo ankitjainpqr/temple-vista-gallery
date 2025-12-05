@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -14,15 +15,19 @@ const Navigation = () => {
 
           {/* Navigation Links */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
-              Home
-            </Button>
+            <Link to="/">
+              <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
+                Home
+              </Button>
+            </Link>
             <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
               About Us
             </Button>
-            <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
-              Contacts
-            </Button>
+            <Link to="/contacts">
+              <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
+                Contacts
+              </Button>
+            </Link>
           </nav>
 
           {/* Mobile Menu Button */}
