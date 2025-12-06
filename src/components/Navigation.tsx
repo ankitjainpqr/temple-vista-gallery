@@ -20,6 +20,11 @@ const Navigation = () => {
                 Home
               </Button>
             </Link>
+            <Link to="/photos">
+              <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
+                Photos
+              </Button>
+            </Link>
             <Link to="/about-us">
               <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
                 About Us
