@@ -20,9 +20,11 @@ const Navigation = () => {
                 Home
               </Button>
             </Link>
-            <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
-              About Us
-            </Button>
+            <Link to="/about-us">
+              <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
+                About Us
+              </Button>
+            </Link>
             <Link to="/contacts">
               <Button variant="ghost" className="text-foreground hover:text-primary transition-colors">
                 Contacts
